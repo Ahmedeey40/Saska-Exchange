@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bog Ganacsi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f0f8ff, #e6f0fa);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004aad;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #007bff;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        .form-container {
+            background-color: white;
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-container h2 {
+            text-align: center;
+            color: #004aad;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #004aad;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #003a8c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ganacsigaaga Online</h1>
+        <p>Kusoo Dhawoow Bogga Rasmiga ah</p>
+    </header>
+
+    <nav>
+        <a href="#">Bogga Hore</a>
+        <a href="#">Adeegyadeena</a>
+        <a href="#">Nala Soo Xiriir</a>
+    </nav>
+
+    <main>
+        <div class="form-container">
+            <h2>Foomka Xiriirka</h2>
+            <form>
+                <label for="name">Magaca:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Fariintaada:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Dir Fariinta</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
